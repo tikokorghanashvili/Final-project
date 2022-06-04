@@ -1,0 +1,142 @@
+.navigation{
+    display: flex;
+    width: 1088px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+.ul{
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 13px;
+    width: 100%;
+}
+.li{
+    margin-right: 50px;
+    font-size: 14px;
+}
+.main-block{
+    background-color: lightgrey;
+    width: 1920px;
+    height: 400px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.div-block{
+    width: 600px;
+    height: 118px;
+    margin-left: 140px;
+    margin-top: 122px;
+    margin-bottom: 160px;
+    margin-right: 200px;
+}
+.pay{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    background-color: lightgrey;
+}
+.ptext{
+    color: #9A9A9A;
+    font-size: 16px;
+    width: 600px;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.div-block1{
+    width: 500px;
+    height: 400px;
+    margin-right: 140px;
+    margin-top: 60px;
+    background-color: #FFFFFF;
+}
+.h3text{
+    color: #707070;
+    font-size: 26px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 418px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+    font: bolder;
+}
+.pregister{
+    width: 402px;
+    /* height: 118px; */
+    color: #9A9A9A;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 48px;
+    margin-bottom: 50px;
+}
+.Registration{
+    width: 205px;
+    height: 48px;
+    margin-left: 50px;
+    margin-right: 245px;
+    background-color: #D0006F;
+    border-radius: 30px;
+}
+.center{
+    width: 1640px;
+    height: 406px;
+    margin-top: 65px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 65px;
+}
+.center1{
+    width: 728px;
+    margin: 0 auto;
+    text-align: center;
+}
+.h3services{
+    font-size: 26px;
+    color: #707070;
+    margin-bottom: 15px;
+}
+.pchoose{
+    font-size: 16px;
+    color: #9A9A9A;
+}
+.divblockcenter{
+    width: 1640px;
+    height: 302px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+.center2{
+    background-color: blue;
+    max-width: 1640px;
+    width: 100%;
+    height: 330px;
+    margin-top: 20px;
+}
+.bottom{
+    background-color: blue;
+    max-width: 1640px;
+    width: 100%;
+    height: 330px;
+    margin-top: 20px;
+}
+.footer{
+    width: 1920px;
+    height: 72px;
+    margin-top: 70px;
+    background-color: aqua;
+}
+.header{
+    width: 1920px;
+    height: 122px;
+    /* background-color: #26475E; */
+}
