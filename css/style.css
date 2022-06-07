@@ -223,12 +223,14 @@
     height: 330px;
     margin-top: 65px;
     margin-left: 140px;
+    width: 1640px;
+    background-color: #5E264F;
 }
 .bottomh3{
     font-size:26px ;
     color: #707070;
     font: bolder;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .bottomblock{
     max-width: 1600px;
@@ -236,7 +238,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
+    background-color: #FFFFFF;
 }
 
 
