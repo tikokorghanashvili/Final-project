@@ -1,3 +1,6 @@
+@import url("https://cdn.web-fonts.ge/fonts/arial-geo-bolditalic/css/arial-geo-bolditalic.min.css");
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
 .navigation{
     display: flex;
     margin-left: 140px;
@@ -43,6 +46,8 @@
     font-size: 30px;
     color: #FFFFFF;
     margin-bottom: 30px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    
 }
 .ptext{
     color: #9A9A9A;
@@ -106,6 +111,7 @@
     font-size: 26px;
     color: #707070;
     margin-bottom: 15px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .pchoose{
     font-size: 16px;
@@ -180,6 +186,7 @@
     color:#707070 ;
     font: bolder;
     margin-left: 30px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .center2block{
     display: flex;
@@ -236,6 +243,7 @@
     color: #707070;
     font: bolder;
     margin-left: 30px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .bottomblock{
     width: 100%;
