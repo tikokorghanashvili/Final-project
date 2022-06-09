@@ -35,12 +35,12 @@
     margin-top: 11px;
 }
 .div-block{
-    width: 600px;
+    width: 400px;
     height: 118px;
     margin-left: 140px;
     margin-top: 122px;
     margin-bottom: 160px;
-    margin-right: 200px;
+    margin-right: 400px;
 }
 .pay{
     font-size: 30px;
@@ -52,7 +52,7 @@
 .ptext{
     color: #9A9A9A;
     font-size: 16px;
-    width: 600px;
+    width: 400px;
     height: 48px;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -61,7 +61,7 @@
     padding-left: 10px;
 }
 .div-block1{
-    width: 500px;
+    width: 400px;
     height: 400px;
     margin-right: 140px;
     margin-top: 60px;
@@ -71,7 +71,7 @@
 .h3text{
     color: #707070;
     font-size: 26px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 50px;
     width: 418px;
     margin-right: 35px;
@@ -79,18 +79,18 @@
     font: bolder;
 }
 .pregister{
-    width: 402px;
-    /* height: 118px; */
+    width: 400px;
     color: #9A9A9A;
     font-size: 16px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 48px;
     margin-bottom: 50px;
+    text-align: left;
 }
 .Registration{
     width: 205px;
     height: 48px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 245px;
     background-color: #D0006F;
     border-radius: 30px;
@@ -142,6 +142,15 @@
     vertical-align: middle;
     margin-top: 15px;
 }
+.blockleft1:hover{
+    background-color: #d00099;
+    transition: all 0.5s linear;
+    border-radius: 30px;
+}
+.blockleft1:nth-child(5){
+    background-color: #5E264F;
+}
+
 .centerimg{
     width: 64px;
     height: 64px;
@@ -200,6 +209,7 @@
     height: 272px;
     background-color: #5E264F;
     border-radius: 10px;
+    margin-right: 5px;
 }
 .center2p{
     font-size: 26px;
@@ -219,6 +229,7 @@
     height: 272px;
     background-color: #5E264F;
     border-radius: 10px;
+    margin-right: 5px;
 }
 .center2pp{
     font-size: 15px;
@@ -344,4 +355,132 @@ body{
 }
 .bottomp{
     text-align: center;
+}
+.input-block{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: 25px;
+}
+.input{
+    background-color: #F8F8F8;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+#ul-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+#main-section {
+    margin: 0, auto;
+    padding: 40px;
+}
+.image-block {
+    height: 150px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.btn {
+    background-color:#5E264F ;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 9px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 400px;
+}
+.btn:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
+.list {
+    background-color: rgb(150, 166, 216);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.list:hover {
+    opacity: 60%;
+    transition: 0.3s;
+}
+.p-email {
+    margin-bottom: 10px;
+}
+
+
+.image-slider{
+    max-width:  100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    margin: 0 auto; 
+}
+.image-slider::after{
+    content: " ";
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: block;
+    opacity: 40%;
+    position: relative;
+}
+.slider-div{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.arow-left{
+    left: 50px;
+}
+.arow-right{
+    right: 50px;
+}
+.leftarrow.rightarrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.dots{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateY(-50%);
+    bottom: 15px;
+    z-index: 10;
+}
+.dot.active{
+    background-color: black;
+}
+.mainsectionh3{
+    font-size:26px ;
+    color:#707070 ;
+    font: bolder;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
